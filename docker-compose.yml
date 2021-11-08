@@ -33,7 +33,7 @@ services:
       - nginx_config:/etc/nginx/conf.d:ro
       - staticfiles:/static
       - ./mediafiles:/media
-      environment:
+    environment:
       - MYSQL_USER=root
       - MYSQL_ROOT_PASSWORD=password
 
